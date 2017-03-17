@@ -1,0 +1,292 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+ .img-responsive {
+    display: inline;
+}
+
+.img-circle {
+    max-width: 225px;
+    padding: 25px 0;
+
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+.gap-right {
+    margin-right: 20px;
+}
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+/*Countdown*/
+
+.countdown {
+    line-height: 1.2em;
+    margin: .25em;
+    padding: 0 0 40px 0;
+    color: #fff;
+    font-size: 2.75em;
+    
+}
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Header */
+
+
+.header-logo {
+    padding: .75em;
+    height: 70px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding: 50px 0;
+    background: url(../img/data-center-floor.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+.header-success {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background: url(../img/dublin-skyline.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+.header p {
+    color: rgb(255,255,255);
+    font-size: 1.5em;
+    padding-top: 25px;
+    margin: 25px 30px;
+}
+
+
+
+/* About */
+
+.about {
+    background-color: rgb(42,42,42);
+    padding: 50px 0;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+.lead {
+    color: white;
+}
+
+/* Services */
+
+.services {
+    padding: 30px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/jim-at-board-004.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+
+}
+
+
+/*Data-Center-Floorplan*/
+#memphis-datacenter {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 55%;
+/*    background-color: rgb(231,231,232);*/
+    background: url(../img/data-center-floor.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding:10px 0;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+ul li {
+  list-style: none;
+    margin: 0 0 10px 0;
+}
+
+.list-number {
+    padding: 0 10px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(35,31,32);
+    color: rgb(255,255,255);
+    font-size: 42px;
+}
+
+.list-stat {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 15px 10px 15px;
+    padding: 15px;
+    color: rgba(255,255,255,1);
+
+}
+
+.share-buttons {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+/*---------------Social Share Buttons------------------------------*/
+
+.btn-twitter {
+    background: #00acee;
+    border-radius: 0;
+    color: #fff
+}
+.btn-twitter:link, .btn-twitter:visited {
+    color: #fff
+}
+.btn-twitter:active, .btn-twitter:hover {
+    background: #0087bd;
+    color: #fff
+}
+
+.btn-linkedin {
+    background: #0e76a8;
+    border-radius: 0;
+    color: #fff
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #0b6087;
+    color: #fff
+}
+
+
+
+/*section-dark*/
+
+.section-dark {
+    background-color: #2A2A2A;
+}
+
+@media(max-width:768px) {
+
+.header p {
+ 
+    margin: 25px 125px;
+}
+
+.register {
+    padding-top: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+    background-color: rgb(255,255,255);
+}

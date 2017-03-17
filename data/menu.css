@@ -1,0 +1,90 @@
+tr:nth-child(even) {
+    background-color: ECECEC;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+table 
+{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    border;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+td 
+{
+	font-size:20px;
+	color: A6A6A6;
+	padding: 1 0px 4 10px;
+	margin: 0;
+	border: 0;
+	
+}
+td  span.custom-dropdown select
+{
+	height:auto;
+}
+body {
+  background: linear-gradient(
+    to bottom,
+    #7B030D,
+    #7B030D 50%,
+    #880C17 50%,
+    #880C17
+  );
+  background-size: 100% 6px;
+} 
+form {
+    border-radius: 1px;
+    border-radius: 25px;
+    background: white;
+	font-size:2em;
+    padding: 20px;
+    /* width: 200px; */
+    /* height: 150px; */
+}
+.center
+{
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+.title
+{
+	color:white;
+}
+.logo
+{
+	width:100%;
+	margin-top:25px;
+}
+.submit
+{
+	margin-top: 20px;
+	background:linear-gradient(white,silver);
+	padding: 5px 10px;
+	color: A6A6A6;;
+	border-radius:15px;
+	border-color:silver;
+	border-style:solid;
+	font-size:18px;
+	font-weight:bold;
+}
+.submit:hover
+{
+	background:white;
+	background:linear-gradient(whitesmoke,lightgray);
+}
+.open-slots
+{
+	color: B8B8B8;
+	font-weight:bold;
+	font-size:20px;
+	padding: 1 0px 4 10px;
+	margin: 0;
+	border: 0;
+}

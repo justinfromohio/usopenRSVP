@@ -1,0 +1,1 @@
+a:7:{s:6:"Monday";s:1:"0";s:7:"Tuesday";s:1:"0";s:9:"Wednesday";s:1:"0";s:8:"Thursday";s:1:"2";s:6:"Friday";s:2:"10";s:8:"Saturday";s:2:"10";s:6:"Sunday";s:1:"0";}

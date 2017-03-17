@@ -1,0 +1,365 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-image: url(../img/golf-course.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: rgb(0, 0, 0, 0.6);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1.35em;
+     font-weight: 300;
+	height: 100%;
+    color: #fff;
+/*	margin-bottom: 60px;*/
+	
+
+}
+
+h1 {
+	color: rgb(255,255,255);
+  font-size: 2.5em;
+  font-weight: 400;
+	padding: 10px 0;
+
+}
+
+h2 {
+
+	font-size: 36px;
+	font-weight: 300;
+    color: #fff;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+h5 {
+	color:rgb(255,255,255);
+}
+/*------------------
+header
+--------------------*/
+
+.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+}
+
+.header-logo {
+	padding: .75em;
+	height: 70px;
+}
+
+/*------- list-items ---------*/
+ul {
+	line-height: 25px;
+	padding: 5px 5px;
+	list-style: none;
+}
+.list-title {
+	color: rgb(203,30,64);
+	font-size: 1.25em;
+
+}
+
+li:before {
+    content: "• ";
+    color: rgb(203,30,64);
+}
+
+.left-content {
+   /* padding: 0px 0 0 0;*/
+    font-size: 18px;
+    line-height: 1.25;
+
+}
+
+
+
+
+
+.list-unstyled {
+  list-style: none;
+
+}
+
+/*------- white paper ---------*/
+
+.download-infographic img{
+	padding: 0 15px 0 0;
+	height: 115px;
+	
+
+}
+
+.download-infographic small{
+	font-size: 1.25em;
+	font-weight: 400;
+	
+
+}
+
+.download-infographic a , a:hover , a:visited {
+	text-decoration: none;
+}
+
+/* ----- Registration Form ----- */
+
+.register form {
+    padding: 20px 50px 40px 50px;
+    margin-top: 25px;
+    background: rgba(0,0,0, .4) url(../img/pattern.jpg) left top repeat;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    /*text-align: center;*/
+}
+
+.register form h2 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #FFF;
+    font-size: 2.250em ; /*36px*/
+    font-weight: 300;
+    text-align: center;
+}
+
+.register form input {
+    width: 95%;
+    height: 55px;
+    background: #fcfcfc;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-weight: 400;
+    color: rgba(0,0,0,.5);
+    font-size: 18px;
+}
+
+.register form input:focus {
+    border: 1px solid #ccc;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.register form label {
+    margin: 25px 0 10px 0;
+    font-size: 1.25em;
+    color: #fff;
+    font-weight: 300;
+    text-align: left;
+}
+
+.register form label span {
+    font-style: italic;
+}
+
+.register form input:-moz-placeholder { color: #aaa; }
+.register form input:-ms-input-placeholder { color: #aaa; }
+.register form input::-webkit-input-placeholder { color: #aaa; }
+
+.register form button {
+    cursor: pointer;
+    width: 95%;
+    height: 55px;
+    margin: 25px 0 0 0;
+    padding: 0;
+    background: rgba(71,71,71,1);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    text-align: center;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+
+
+
+.register form button:hover {
+    -moz-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    -webkit-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+}
+
+.register form button:active {
+    -moz-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+}
+
+.share-buttons {
+	margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*---------------Form Drop Down------------------------------*/
+
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 95%;
+ 
+}
+
+.custom-dropdown select {
+  background-color: rgba(211,211,211,1);
+  color: rgba(71,71,71,1);
+  width: 100%;
+  height: 40px;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  -moz-appearance: none;
+  -o-appearance:none;
+   appearance:none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}
+
+
+
+
+
+
+/*---------------Social Share Buttons------------------------------*/
+
+.btn-twitter {
+    background: #00acee;
+    border-radius: 0;
+    color: #fff
+}
+.btn-twitter:link, .btn-twitter:visited {
+    color: #fff
+}
+.btn-twitter:active, .btn-twitter:hover {
+    background: #0087bd;
+    color: #fff
+}
+
+.btn-linkedin {
+    background: #0e76a8;
+    border-radius: 0;
+    color: #fff
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #0b6087;
+    color: #fff
+}
+
+
+/*-------------------------------Footer-------------------------------------*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(42,42,42);
+}
+
+.footer-logo {
+    margin: 0 0 6px 5px;
+	height: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
